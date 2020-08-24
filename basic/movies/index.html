@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOVIES</title>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/cyborg/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">MOVIES INFO</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">Search For Any Movie</h3>
+        <form id="searchForm">
+          <input
+            type="text"
+            class="form-control"
+            id="searchText"
+            placeholder="Search Movies..."
+          />
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

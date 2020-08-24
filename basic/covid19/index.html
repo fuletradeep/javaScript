@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 TRACKER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container" onload="init()">
+            <h3 class="display-4 text-center mt-5" id="h3txt">COVID-19 LIVE SERVER</h3>
+            <br><br><br>
+            <table class="table"> <label for="IN WORLD" class="display-5 mt-3 ">IN WORLD</label>
+                <thead class="thead-dark">
+                  <tr>
+                    
+                    <th scope="col">TOTAL CASES</th>
+                    <th scope="col">TOTAL DEATH</th>
+                    <th scope="col">TOTAL RECOVER</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="tc"></th>
+                        <th id="td"></th>
+                        <th id="tr"></th>
+                    </tr>
+                </tbody> 
+
+               
+                <table class="table"> 
+                    <thead class="thead-dark">
+                      <tr>
+                        
+                        <th scope="col">TOTAL CASES</th>
+                        <th scope="col">TOTAL DEATH</th>
+                        <th scope="col">TOTAL RECOVER</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="tci"></th>
+                            <th id="tdi"></th>
+                            <th id="tri"></th>
+                        </tr>
+                    </tbody>  
+                    <form id="con">          
+                      <input type="text" id="txt" class="form-control mb-4" placeholder="Enter Country Name....">
+                      <input class="btn btn-warning btn-block mb-3" id="btn" type="submit" value="ENTER"></input>
+                    </form>         
+    </div>
+    <script src="index1.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid black;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.flex-box-container{
+
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+img{
+    margin: 15px;
+    box-shadow: -webkit-box-shadow: 10px 10px 31px -4px rgba(158,66,158,1);
+    -moz-box-shadow: 10px 10px 31px -4px rgba(158,66,158,1);
+    box-shadow: 10px 10px 31px -4px rgba(158,66,158,1);;
+}

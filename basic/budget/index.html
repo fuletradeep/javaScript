@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGET</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f6f3e141c4.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primaryclass="navbar navbar-expand-lg navbar-dark bg-primary>
+        <p><h1 style="align-items: center">BUDGET</h1></p>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+        <form class="budget-form">
+            <div class="form-group">
+              <label for="budget">PLS Enetr Your budget</label>
+              <input type="number" class="form-control" id="budget-input" aria-describedby="emailHelp" placeholder="Enter Your Budget value...">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your Datat with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <div class="jumbotron">
+            <form class="expense-form">
+                <div class="form-group">
+                  <label for="budget">PLS Enetr Your Expenses</label>
+                  <input type="text" class="form-control" id="expense-des" aria-describedby="emailHelp" placeholder="Enter Your Expense Description...">
+                  <input type="number" class="form-control mt-3" id="expense-input" aria-describedby="emailHelp" placeholder="Enter Your Expense Value...">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your Datat with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+            </div>
+            <!-- app info -->
+      <class class="row my-3">
+        <div class="col-4 text-center mb-2">
+         <h6 class="text-uppercase info-title">budget</h6>
+         <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
+         <h4 class="text-uppercase mt-2 budget" id="budget"><span>$ </span><span id="budget-amount">0</span></h4>
+        </div>
+        <div class="col-4 text-center">
+         <h6 class="text-uppercase info-title">expenses</h6>
+         <span class="expense-icon"><i class="far fa-credit-card"></i></span>
+         <h4 class="text-uppercase mt-2 expense" id="expense"><span>$ </span><span id="expense-amount">0</span></h4>
+        </div>
+        <div class="col-4 text-center">
+         <h6 class="text-uppercase info-title">balance</h6>
+         <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+         <h4 class="text-uppercase mt-3 balance" id="balance"> <span>$ </span><span id="balance-amount">0</span></h4>
+        </div>
+       </class>
+     <br><br>
+
+             <!-- expense list -->
+      <class class="expense-list mt-2" id="expense-list">
+
+        <div class="expense-list__info d-flex justify-content-between text-capitalize mb-2">
+         <h5 class="list-item">expense title</h5>
+         <h5 class="list-item">expense value</h5>
+         <h5 class="list-item"></h5>
+        </div>
+        <!-- single expense -->
+        <div id="list">
+        <!-- <div class="expense-item d-flex justify-content-between align-items-baseline">
+            <h6 class="expense-title mb-0 text-uppercase list-item">- title</h6>
+            <h5 class="expense-amount mb-0 list-item">amount</h5>
+            <div class="expense-icons list-item">
+             <a href="#" class="edit-icon mx-2" data-id="${expense.id}">
+              <i class="fas fa-edit"></i>
+             </a>
+             <a href="#" class="delete-icon" data-id="${expense.id}">
+              <i class="fas fa-trash"></i>
+             </a>
+            </div>
+        </div>
+          
+           <div class="expense-item d-flex justify-content-between align-items-baseline">
+                <h6 class="expense-title mb-0 text-uppercase list-item">- title</h6>
+                <h5 class="expense-amount mb-0 list-item">amount</h5>
+                <div class="expense-icons list-item">
+                <a href="#" class="edit-icon mx-2" data-id="${expense.id}">
+                <i class="fas fa-edit"></i>
+                </a>
+                <a href="#" class="delete-icon" data-id="${expense.id}">
+                <i class="fas fa-trash"></i>
+                </a>
+                </div> 
+        </div> -->
+        </div>
+          </class>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
