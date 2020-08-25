@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f6f3e141c4.js" crossorigin="anonymous"></script>
+    <style>
+        .value{
+            display: none;
+        }
+        .color{
+            
+            background: chartreuse;
+            text-align: center;
+            color: rgb(119, 41, 245);
+        }
+    </style>
+    <title>Number fact</title>
+</head>
+<body bg-black>
+    <div class="container">
+        <div class="jumbotron mt-5" >
+
+            <i class="fas fa-sort-numeric-up-alt"></i>
+             <h2>NUMBER FACT</h2>
+             <form class="number-fact">
+             <input type="number" id="text" class="mt-2 form-control form-control-lg">
+             <button type="submit" class="btn btn-primary mt-2">Enter</button>
+            </form>
+            <div class="value form-control mt-3" id="value" bg-blue>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
